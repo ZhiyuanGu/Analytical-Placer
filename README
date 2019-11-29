@@ -1,0 +1,46 @@
+README file - ECE1387 Assignment2 Analytical Placer 
+- developer:	Zhiyuan Gu
+- date: 		Oct 20, 2019
+
+1. File list:
+-------------
+SuiteSparse
+main.cpp
+Placing.cpp
+Block.cpp
+Net.cpp
+draw.cpp
+graphics.cpp
+Placing.h
+Block.h
+Net.h
+draw.h
+graphics.h
+easygl_constrants.h
+makefile
+cct1
+cct2
+cct3
+README
+report.pdf
+
+2. Steps to compile and run the placer for one of the test files
+---------------------------------------------------------------------------
+1) Type "make" in the source file folder to compile the code.
+2) Type "./AP" to run the executable.
+3) When message asking for input file path shows up, type "cct2" or other files. If you choose "cct2" or "cct3", spreading is enabled.
+4) When message asking for net model shows up, type "1" for the clique model. If you choose "2", the net model is tree model mentioned in question 2.
+5) Graphics tool window should show up. Press "Proceed" to start printing out placer result.
+    The blue circles are blocks and yellow lines are connections as in the specified net model.
+    Green circles are the anchors used for spreading placement.
+6) Four new buttons "Spread1", "Spread2", "Spread3", "Rewind" should show up
+    "Spread1": spread with the least effort among the three
+    "Spread2": spread with moderate effort
+    "Spread3": spread with the largest effort among the three
+    "Rewind": Rewind to the beginning(no spreading)
+   Press "Proceed" or "Exit" at any time to close the graphics window.
+   HPWL is reported in the terminal.
+
+
+Thank you for reading!
+
